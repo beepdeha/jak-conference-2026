@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>JAK Conference 2026 — Live Schedule</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-pattern"></div>
+    <h1>JAK CONFERENCE 2026</h1>
+    <p class="hero-sub">Live Event Schedule</p>
+    <div id="clock" class="clock"></div>
+  </header>
+
+  <main>
+    <section id="status-card" class="status-card">
+      <!-- Filled dynamically by script.js -->
+    </section>
+
+    <section class="schedule-wrap">
+      <h2 class="section-title">Full Schedule</h2>
+      <ol id="schedule-list" class="schedule-list"></ol>
+    </section>
+  </main>
+
+  <div id="overlay" class="overlay" hidden>
+    <div class="modal" id="modal">
+      <button id="modal-close" class="modal-close" aria-label="Close">&times;</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p><strong>Snack Bag:</strong> Available for early arrivals upon completing registration at welcome desks.</p>
+    <p><strong>Packed Meals:</strong> Available at the conclusion of the event from serving stations.</p>
+    <p><strong>Food stalls:</strong> Various food stalls from external vendors will be available throughout the day.</p>
+    <p class="footer-thanks">We look forward to your participation and hope you enjoy the event!</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
